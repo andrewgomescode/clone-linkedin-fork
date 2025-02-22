@@ -78,8 +78,6 @@ Em telas menores que 1280px, o fundo será cinza e o texto preto.
 Em telas 1280px ou maiores (incluindo 1920x1080), o fundo ficará azul e o texto branco.
 ```
 
-- Em telas menores que 640
-
 ## Saiba mais
 
 Para saber mais sobre Next.js, veja sua documentação:
