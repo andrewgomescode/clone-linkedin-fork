@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Esta é uma aplicação criada com NextJS, utilizando ReactJS
 
-## Getting Started
+## LEIA COM ATENÇÃO
 
-First, run the development server:
+## O QUE FAZER PARA COMEÇAR A CODAR NO PROJETO:
+
+```css
+Extensões obrigatórias! em seu VSCode:
+1.Prettier - Code Formatter
+2.PostCSS Language Support
+3.TailwindCSS IntelliSense
+
+Extensões não obrigatórias:
+1.Material Icon Theme (recomendado)
+```
+
+## Ao instalar as extensões, instale as dependências do projeto executando:
+
+```bash
+npm install
+```
+
+Para executar o servidor de testes do Frontend, execute o comando:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+As Páginas automaticamente atualizam no navegador assim que uma alteração é feita.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Esse projeto utiliza [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) para automaticamente otimizar o carregamento das fontes.
+Qualquer importação de fonte, utilizem o `next/font` como primeiro plano. Utilizem este recurso pois o framework lida melhor com esse tipo de importação.
+A fonte padrão do nosso projeto será a "SourceSans3". A fonte ja foi importada no `src/app/Layout.tsx`.
+A configuração de importação da fonte está localizada em `src/utils/font.ts`.
+Caso seja necessário a importação desta fonte em outros Layouts, faça a importação do arquivo `src/utils/font.ts`.
 
-## Learn More
+## Saiba mais
 
-To learn more about Next.js, take a look at the following resources:
+Para saber mais sobre Next.js, veja sua documentação:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
