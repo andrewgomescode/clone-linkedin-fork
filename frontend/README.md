@@ -4,13 +4,17 @@
 
 ## O que fazer para começar a codar no projeto
 
-```txt
 **Extensões obrigatórias! em seu VSCode:**
+
+```txt
 1.Prettier - Code Formatter
 2.PostCSS Language Support
 3.TailwindCSS IntelliSense
+```
 
 **Extensões não obrigatórias:**
+
+```txt
 1.Material Icon Theme (recomendado)
 ```
 
