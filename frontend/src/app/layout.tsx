@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body className={`${sourceSans.className} `}>{children}</body>
+      <body className={`${sourceSans.className} antialiased`}>{children}</body>
     </html>
   );
 }
