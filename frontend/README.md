@@ -1,24 +1,28 @@
 # Esta é uma aplicação criada com NextJS, utilizando ReactJS
 
-## LEIA COM ATENÇÃO
+**LEIA COM ATENÇÃO!**
 
-## O QUE FAZER PARA COMEÇAR A CODAR NO PROJETO:
+## O que fazer para começar a codar no projeto
 
-```css
-Extensões obrigatórias! em seu VSCode:
+```txt
+**Extensões obrigatórias! em seu VSCode:**
 1.Prettier - Code Formatter
 2.PostCSS Language Support
 3.TailwindCSS IntelliSense
 
-Extensões não obrigatórias:
+**Extensões não obrigatórias:**
 1.Material Icon Theme (recomendado)
 ```
 
-## Ao instalar as extensões, instale as dependências do projeto executando:
+## Instalação das dependências
+
+Após instalar as extensões e já estiver com o projeto clonado, execute o seguinte comando no terminal:
 
 ```bash
 npm install
 ```
+
+## Executando servidor de teste
 
 Para executar o servidor de testes do Frontend, execute o comando:
 
@@ -27,8 +31,9 @@ npm run dev
 ```
 
 Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
-
 As Páginas automaticamente atualizam no navegador assim que uma alteração é feita.
+
+## Fontes externas
 
 Esse projeto utiliza [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) para automaticamente otimizar o carregamento das fontes.
 Qualquer importação de fonte, utilizem o `next/font` como primeiro plano. Utilizem este recurso pois o framework lida melhor com esse tipo de importação.
