@@ -66,12 +66,17 @@ Abaixo estão algumas informações importantes sobre o Tailwind CSS.
    No Tailwind, você pode aplicar estilos específicos para diferentes tamanhos de tela usando os prefixos acima. Por exemplo:
 
 ```tsx
-<div className="text-center sm:text-left md:text-right lg:text-center xl:text-justify">
-  Este texto muda de alinhamento conforme o tamanho da tela.
-<div/>
+<div class="bg-gray-200 p-4 xl:bg-blue-500 xl:text-white">
+  Este fundo ficará azul e o texto branco em telas 1920x1080.
+</div>
 ```
 
 O que está acontecendo no código acima:
+
+```txt
+Em telas menores que 1280px, o fundo será cinza e o texto preto.
+Em telas 1280px ou maiores (incluindo 1920x1080), o fundo ficará azul e o texto branco.
+```
 
 - Em telas menores que 640
 
