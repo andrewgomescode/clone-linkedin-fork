@@ -46,6 +46,35 @@ A fonte ja foi importada no `src/app/Layout.tsx`;\
 A configuração de importação da fonte está localizada em `src/utils/font.ts`;\
 Caso seja necessário a importação desta fonte em outros Layouts, faça a importação do arquivo `src/utils/font.ts`.
 
+## Informações importantes sobre o TailwindCSS
+
+Sim, o Tailwind é um framework CSS. Ele oferece a possibilidade de criar layouts de forma mais produtiva.\
+Abaixo estão algumas informações importantes sobre o Tailwind CSS.
+
+1. Tenha em mente que o TailwindCSS é **"Mobile-first"**. O que isso significa:
+   O TailwindCSS prioriza as configurações em dispositivos móveis. Isso significa que os designs são otimizados para telas menores, garantindo que os sites funcionem bem nos dispositivos móveis. Basicamente quase toda a sua estrutura é construída em unidades de medida relativas, sendo assim mais fácil e produtivo de lidar com diferentes tamanhos de telas.
+2. O Tailwind utiliza prefixos `sm, md, lg e xl` para definir tamanhos para dispositivos. São os famosos "breakpoints".\
+   Para simplificar um pouco:
+
+   1. sm: (small, Min-width: 640px): Telas pequenas (smartphones);
+   2. md: (medium, Min-width: 768px): Telas médias (tablets);
+   3. lg: (large, Min-width: 1024px): Telas grandes (laptops);
+   4. xl: (extra-large, Min-width: 1280px): Telas extra grandes (desktops);
+   5. 2xl: (2extra-large, Min-width: 1536px): Telas muito grandes (4K, etc.).
+
+3. Como funciona o "mobile-first" e os Breakpoints?
+   No Tailwind, você pode aplicar estilos específicos para diferentes tamanhos de tela usando os prefixos acima. Por exemplo:
+
+```tsx
+<div className="text-center sm:text-left md:text-right lg:text-center xl:text-justify">
+  Este texto muda de alinhamento conforme o tamanho da tela.
+<div/>
+```
+
+O que está acontecendo no código acima:
+
+- Em telas menores que 640
+
 ## Saiba mais
 
 Para saber mais sobre Next.js, veja sua documentação:
