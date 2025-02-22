@@ -1,6 +1,6 @@
-# Esta é uma aplicação criada com NextJS, utilizando ReactJS
+# LEIA COM ATENÇÃO
 
-**LEIA COM ATENÇÃO!**
+Esta é uma aplicação criada com NextJS, utilizando ReactJS.
 
 ## O que fazer para começar a codar no projeto
 
@@ -39,11 +39,7 @@ As Páginas automaticamente atualizam no navegador assim que uma alteração é 
 
 ## Fontes externas
 
-Esse projeto utiliza [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) para automaticamente otimizar o carregamento das fontes.
-Qualquer importação de fonte, utilizem o `next/font` como primeiro plano. Utilizem este recurso pois o framework lida melhor com esse tipo de importação.
-A fonte padrão do nosso projeto será a "SourceSans3". A fonte ja foi importada no `src/app/Layout.tsx`.
-A configuração de importação da fonte está localizada em `src/utils/font.ts`.
-Caso seja necessário a importação desta fonte em outros Layouts, faça a importação do arquivo `src/utils/font.ts`.
+Esse projeto utiliza [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) para automaticamente otimizar o carregamento das fontes. Qualquer importação de fonte, utilizem o `next/font` como primeiro plano. Utilizem este recurso pois o framework lida melhor com esse tipo de importação. A fonte padrão do nosso projeto será a "SourceSans3". A fonte ja foi importada no `src/app/Layout.tsx`. A configuração de importação da fonte está localizada em `src/utils/font.ts`. Caso seja necessário a importação desta fonte em outros Layouts, faça a importação do arquivo `src/utils/font.ts`.
 
 ## Saiba mais
 
